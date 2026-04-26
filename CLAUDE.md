@@ -84,7 +84,10 @@ Claude generates a complete ASMT-11 or DRC-06 reply with:
 │
 ├── gst-common-defences/        ← Reusable defence playbooks
 │   ├── itc-mismatch.md            GSTR-2A/2B mismatch defence
-│   └── gstr1-gstr3b-mismatch.md   Turnover mismatch defence
+│   ├── gstr1-gstr3b-mismatch.md   Turnover mismatch defence
+│   ├── rcm-non-payment.md         RCM non-payment defence + ITC offset strategy
+│   ├── gstr9-gstr3b-mismatch.md   Annual return vs GSTR-3B mismatch defence
+│   └── blocked-credit-section-17.md  §17(5) blocked ITC — what is blocked, what is not
 │
 ├── gst-calculators/            ← Step-by-step calculators
 │   ├── interest-calculator.md     §50 interest — formula + worked examples
